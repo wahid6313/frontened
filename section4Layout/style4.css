@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -20,16 +21,16 @@ body {
   background-color: rgb(228, 226, 226);
   padding: 20px 40px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 100px;
 }
 
 .post-header {
   margin-bottom: 32px;
 }
 
-.heading-name {
+/* .heading-name {
   background-color: aquamarine;
-}
+} */
 
 article {
   margin-bottom: 64px;
@@ -129,8 +130,9 @@ a:active {
 
 nav a:link {
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
+  font-size: 18px;
 }
 
 nav a:link:last-child {
@@ -200,4 +202,11 @@ h2::after {
 .webDoc {
   margin-bottom: 16px;
   display: inline-block;
+}
+
+/* FLEX-------------------- */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

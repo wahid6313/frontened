@@ -5,7 +5,7 @@
 
 body {
   font-family: sans-serif;
-  border-top: 10px solid #1098ad;
+  border-top: 12px solid #1098ad;
   /* position: relative; */
 }
 
@@ -27,9 +27,9 @@ body {
   margin-bottom: 32px;
 }
 
-.heading-name {
+/* .heading-name {
   background-color: aquamarine;
-}
+} */
 
 article {
   margin-bottom: 64px;
