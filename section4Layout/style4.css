@@ -210,3 +210,13 @@ h2::after {
   align-items: center;
   justify-content: space-between;
 }
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.author {
+  margin-bottom: 0;
+  margin-left: 16px;
+}
