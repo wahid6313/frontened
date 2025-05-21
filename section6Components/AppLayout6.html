@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Layout 6</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        color: #343a40;
+        font-size: 24px;
+        height: 100vh;
+        text-align: center;
+        font-weight: bold;
+
+        display: grid;
+        grid-template-columns: 80px 400px 1fr 250px;
+        grid-template-rows: 80px 1fr;
+      }
+      nav,
+      menu,
+      section,
+      aside,
+      main {
+        padding-top: 20px;
+      }
+      nav {
+        background-color: #343a40;
+        color: #fff;
+
+        grid-row: 1/-1;
+      }
+
+      menu {
+        background-color: #9775fa;
+        color: #fff;
+
+        grid-column: 2/-1;
+      }
+
+      section {
+        background-color: #e9ecef;
+      }
+
+      aside {
+        background-color: #e9ecef;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>Nav</nav>
+    <menu>Menu</menu>
+    <section>Inbox</section>
+    <main>Email veiw</main>
+    <aside>Additional info</aside>
+  </body>
+</html>
