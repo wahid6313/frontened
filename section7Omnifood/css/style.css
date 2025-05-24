@@ -17,14 +17,78 @@ body {
   color: #555;
 }
 
+/* ***********************************/
+/*    HEADER SECTION ------------- */
+/* ***********************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+  cursor: pointer;
+}
+
+/* ***********************************/
+/*    Nav SECTION ------------- */
+/* ***********************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  display: inline-block;
+  background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  border-radius: 9px;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* ***********************************/
+/*    HERO SECTION ------------- */
+/* ***********************************/
+
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 8rem 0;
 }
 
 .hero {
   max-width: 138rem;
   margin: 0 auto;
+  padding: 0 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
@@ -55,7 +119,7 @@ body {
   display: inline-block;
   padding: 1.6rem 3.2rem;
   text-decoration: none;
-  border-radius: 1.2rem;
+  border-radius: 9px;
   background-color: #e67e22;
   color: #fff;
 
