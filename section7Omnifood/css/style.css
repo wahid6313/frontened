@@ -720,3 +720,16 @@ strong {
   background-size: cover;
   background-position: center;
 }
+
+/* ***********************************/
+/*  FOOTER SECTION ------------- */
+/* ***********************************/
+
+.footer {
+  padding: 9.6rem 0;
+}
+
+.grid-5-cols {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
