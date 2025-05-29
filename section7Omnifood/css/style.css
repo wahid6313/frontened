@@ -727,7 +727,7 @@ strong {
 
 .footer {
   padding: 12.8rem 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ddd;
 }
 
 .grid-5-cols {
@@ -744,7 +744,7 @@ strong {
 .social-link {
   list-style: none;
   display: flex;
-  gap: 1.6rem;
+  gap: 2.4rem;
 
   margin-bottom: 6.4rem;
 }
@@ -755,10 +755,6 @@ strong {
 
   filter: brightness(0);
   opacity: 50%;
-}
-
-.footer-icon:hover {
-  color: #555;
 }
 
 .copyright {
